@@ -40,5 +40,8 @@ public class UserController {
         return "/helloHTML";
     }
     
-
+    @RequestMapping("/error")
+    public String error(Map<String, Object> map) {
+        return "/error";
+    }
 }
